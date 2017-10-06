@@ -1,0 +1,188 @@
+﻿.HomeService_Service
+{
+    width: 410px;
+    height: 95px;
+    background: url('img/services_homebg.png') no-repeat bottom;
+    position: relative;
+}
+.HomeService_Div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.HomeService_Img
+{
+    padding: 5px 8px;
+    border-right: solid 1px #bdbdbd;
+    float: left;
+}
+.HomeService_Img img
+{
+    height: 71px;
+}
+.HomeService_Title
+{
+    float: left;
+    margin: 8px 0 0 10px;
+}
+.HomeService_Title a
+{
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.HomeService_Button
+{
+    width: 119px;
+    height: 29px;
+    background: url('img/services_button.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.HomeService_Button a
+{
+    display: inline-block;
+    line-height: 29px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 11px;
+}
+#vnptwarning
+{
+    font-size: 13px;
+    color: #003366;
+}
+#LoginDiv
+{
+    width: 280px; 
+    display: block; 
+    margin: auto;
+    margin-top: 10px;
+}
+#LoginDiv label
+{
+    font-size: 13px;
+}
+.Login_Left
+{
+    float: left;
+    text-align: right;
+    width: 115px;
+    font-size: 13px;
+    margin: 0 5px 10px 0;
+    line-height: 20px;
+}
+.Login_Right
+{
+    float: right;
+    text-align: left;
+    width: 155px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.Login_Right input
+{
+    background: #ececec;
+    border: none;
+    
+}
+.HomeWebcast
+{
+    float: left;
+    width: 130px;
+    margin: 0 6px 10px 0;
+    height: 196px;
+}
+.WebcastThumb
+{
+    width: 130px;
+}
+.WebcastDetail
+{
+    border: solid 1px #a5a5a5;
+    background-color: #6c6c6c;
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: center;
+}
+.WebcastDetail span
+{
+    line-height: 20px;
+    display: inline-block;
+}
+.WebcastTitle, .WebcastTitle a
+{
+    font-size: 11px;
+    text-align: center;
+    color: #333333;
+}
+/**
+*   Contact Us
+*/
+#ContactUs
+{
+    width: 957px;
+    margin-bottom: 30px;
+}
+.ContactUs_Left
+{
+    float: left;
+    width: 80px;
+    text-align: left;
+	white-space: nowrap;
+	color:#0066B3;
+	font-weight:bold;
+}
+
+.ContactUs_Left span
+{
+    font-size: 13px;
+    line-height: 30px;
+}
+.SendCard_Left
+{
+    float: left;
+    width: 200px;
+    text-align: right;
+}
+
+.SendCard_Left span
+{
+    font-size: 13px;
+    line-height: 30px;
+}
+.ContactUs_Right
+{
+    float: right;
+    width: 600px;
+    text-align: left;
+    vertical-align: middle;
+}
+#ContactUs .Required
+{
+    color: Red;
+    margin-left: 3px;
+}
+.ContactUs_Info
+{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.ContactUs_Error
+{
+    font-size: 12px;
+    color: Red;
+}
+.ContactUs_Title
+{
+    line-height: 79px;
+    color: #0066B3;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 10px;
+}

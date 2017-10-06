@@ -1,0 +1,99 @@
+﻿
+.main_dnnmenu_bar
+{
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    width: 970px;
+}
+.main_dnnmenu_rootitem
+{
+    color: #375162;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 1px;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+.main_dnnmenu_rootitem_hover
+{
+    background: url( "http://www.vnpt.vn/Portals/_default/Skins/VNPTPortal/images/menu_hover.gif" ) repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 1px;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+.main_dnnmenu_rootitem_selected
+{
+    background: url( "http://www.vnpt.vn/Portals/_default/Skins/VNPTPortal/images/menu_active.gif" ) repeat-x scroll left top transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 1px;
+    padding: 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+.main_dnnmenu_submenu
+{
+    border: 1px solid #C0D6E5;
+}
+.main_dnnmenu_submenu td
+{
+    background-color: #F8FAFF;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2em;
+    margin: 0;
+    padding: 0 5px;
+    text-align: left;
+    z-index: 1000;
+}
+.main_dnnmenu_itemhover td
+{
+    background: url( "http://www.vnpt.vn/Portals/_default/Skins/VNPTPortal/images/submenu_hover.gif" ) repeat-x scroll left top #CE0D0D;
+    color: #FFFFFF;
+}
+.main_dnnmenu_itemselected td
+{
+    background: url( "http://www.vnpt.vn/Portals/_default/Skins/VNPTPortal/images/submenu_active.gif" ) repeat-x scroll left top #CE0D0D;
+    color: #FFFFFF;
+}
+.main_dnnmenu_break
+{
+    background-color: #D5E0FF;
+    height: 2px;
+}
+.ModuleTitle_SubMenu
+{
+    border: 1px solid #C0D6E5;
+}
+.ModuleTitle_SubMenu td
+{
+    background-color: #F8FAFF;
+    white-space: nowrap;
+}
+.ModuleTitle_MenuIcon
+{
+    background-color: #F8FAFF;
+    border: medium none;
+    padding: 0 2px;
+}
+.ModuleTitle_MenuItemSel td, .ModuleTitle_MenuItemSel .ModuleTitle_MenuIcon
+{
+    background: url( "http://www.vnpt.vn/Portals/_default/Skins/VNPTPortal/images/submenu_hover.gif" ) repeat-x scroll left top #CE0D0D;
+    color: #FFFFFF;
+}
+.ModuleTitle_MenuBreak td, .ModuleTitle_MenuBreak .ModuleTitle_MenuIcon
+{
+    background-color: #D5E0FF;
+    height: 2px;
+}
