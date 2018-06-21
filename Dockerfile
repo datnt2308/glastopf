@@ -1,5 +1,5 @@
-FROM ubuntu:14.04.1
-MAINTAINER Lukas Rist <glaslos@gmail.com>
+FROM ubuntu:14.04.4
+MAINTAINER ERROR <datnt2308@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
 
