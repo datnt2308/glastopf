@@ -1,4 +1,4 @@
-FROM ubuntu:16.04.4
+FROM ubuntu:16.04
 MAINTAINER ERROR <datnt2308@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
