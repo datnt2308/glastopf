@@ -23,9 +23,10 @@ import random
 import time
 import os
 import logging
-
 from glastopf.modules.handlers.emulators.surface import create_surface
-
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 logger = logging.getLogger(__name__)
 package_directory = os.path.dirname(os.path.abspath(__file__))
